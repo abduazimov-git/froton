@@ -1,0 +1,72 @@
+.chat {
+    &__back-img {
+        position: absolute;
+        width: 10.41px;
+        height: 18.66px;
+        left: 25.91px;
+        top: 79.62px;
+
+        background-image: url(./../../img/back.svg);
+    }
+
+    &__interlocutor-img {
+        position: absolute;
+        width: 64px;
+        height: 64px;
+        left: 69px;
+        top: 57px;
+
+        background: url(./../../img/interlocutor.png);
+        border-radius: 23px;
+    }
+
+    &__interlocutor-name {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        height: 25px;
+        width: 100px;
+        top: 65px;
+        left: 152px;
+
+        font-style: normal;
+        font-family: $poppins;
+        font-weight: 700;
+        line-height: 25px;
+        font-size: 20px;
+
+        text-align: center;
+        letter-spacing: -0.165px;
+    }
+
+    &__interlocutor-name::after {
+        content: "online";
+        position: absolute;
+        width: 47px;
+        height: 19px;
+        left: 5px;
+        top: 25px;
+
+        font-family: $poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+
+        color: $blue;
+    }
+
+    &__profil-menu {
+        position: absolute;
+        width: 20px;
+        height: 19px;
+        left: 366px;
+        top: 80px;
+
+        background-image: url(./../../img/profile-menu.svg);
+    }
+
+
+
+}
